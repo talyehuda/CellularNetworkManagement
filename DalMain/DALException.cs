@@ -19,7 +19,7 @@ namespace DalMain
     }
     public class DALUnexpectedException : DALException
     {
-        public DALUnexpectedException() :base("Dal - unexpected error occured")
+        public DALUnexpectedException() :base("unexpected error occured")
         {
 
         }

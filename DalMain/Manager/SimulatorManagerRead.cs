@@ -76,14 +76,19 @@ namespace DalMain.Manager
                     var clientId = context.Line.FirstOrDefault(i => i.Id == id && !i.Deleted).ClientId;
                     var list = context.Line.Where(c => c.ClientId != clientId && !c.Deleted).Select(c => c.Number).ToList();
                     var listFriends = GetListSendToFriends(id);
-                    foreach (var item in listFriends)
+                    if (listFriends.Count != 0)
                     {
-                        var a = list.FirstOrDefault(c => c == item);
-                        if (a != null)
-                            list.Remove(item);
+                        foreach (var item in listFriends)
+                        {
+                            var a = list.FirstOrDefault(c => c == item);
+                            if (a != null)
+                                list.Remove(item);
+                        }
+                        if (list.Count != 0) return list[random.Next(list.Count)];
+                        else throw NewDALException(new StackTrace(true), "This line has no General");
                     }
-                    if (list.Count != 0) return list[random.Next(list.Count)];
                     else throw NewDALException(new StackTrace(true), "This line has no General");
+
                 }
             }
             catch (Exception ex)
@@ -102,10 +107,15 @@ namespace DalMain.Manager
                         throw NewDALException(new StackTrace(true), "Line does not exist");
                     else
                     {
-                        var SelectedNumbers = item.Package.SelectedNumbers;
-                        if (SelectedNumbers == null)
-                            throw NewDALException(new StackTrace(true), "Selected Numbers does not exist to this line");
-                        return new List<string>() { SelectedNumbers.FirstNumber, SelectedNumbers.SecondNumber, SelectedNumbers.ThirdNumber };
+                        if (item.PackageId != null)
+                        {
+                            var SelectedNumbers = context.Package.Where(c => c.Id == item.PackageId).Select(c => c.SelectedNumbers).FirstOrDefault();
+                            if (SelectedNumbers == null)
+                                throw NewDALException(new StackTrace(true), "Selected Numbers does not exist to this line");
+                            else return new List<string>() { SelectedNumbers.FirstNumber, SelectedNumbers.SecondNumber, SelectedNumbers.ThirdNumber };
+                        }
+                        else throw NewDALException(new StackTrace(true), "Selected Numbers does not exist to this line");
+
                     }
                 }
             }

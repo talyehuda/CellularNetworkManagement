@@ -40,22 +40,22 @@ namespace Test
             //  EditClientType(clientType1);
             //  ReturnClientType();
             //  Console.WriteLine("-----------------");
-              PlaySimulator();
-              PlayallDuration();
+            //  PlaySimulator();
+             // PlayallDuration();
             //  Console.WriteLine(GetAmountLineToAll("0526654822"));
-              GetBlInvoiceCalculation();
+            //  GetBlInvoiceCalculation();
             //  AddLine();
             //  EditLine();
             //  LoginClient();
             //  LoginEmployee();
-              LoginEmployeeManager();
+            //  LoginEmployeeManager();
             //   TestInvoice();
             //   //Export();
             //   OptimalPackage();
             //   BlReportTest();
             //  AddCall();
             //  GetListLineByIdWrite();
-            //GetPotentialGrougs();
+            GetPotentialGrougs();
             Console.ReadLine();
         }
 

@@ -42,7 +42,7 @@ namespace DalMain.Manager
                 BIReport bIReport = GetMostValueClients();
                 bIReport.BestSellers = GetBestSellers();
                 bIReport.MostCallingToCenterClients = GetMostCallingToCenterClients();
-                //bIReport.PotentialGrougs = GetPotentialGrougs();
+                bIReport.PotentialGrougs = GetPotentialGrougs();
                 return bIReport;
             }
             catch (Exception ex)
@@ -50,54 +50,86 @@ namespace DalMain.Manager
                 throw HandleException(ex);
             }
         }
+        /// <summary>
+        /// Checks if the groups are equal
+        /// </summary>
+        /// <param name="group1"></param>
+        /// <param name="group2"></param>
+        /// <returns></returns>
+        private bool AreLineGroupsEqual(List<string> group1, List<string>group2)
+        {
+            HashSet<string> set = new HashSet<string>();
+            foreach (string str in group1)
+            {
+                set.Add(str);
+            }
+            foreach (string str in group2)
+            {
+                if (!set.Contains(str))
+                    return false;
+            }
+            return true;
+        }
+        /// <summary>
+        /// calculates potential groups
+        /// </summary>
+        /// <returns></returns>
         public List<List<string>> GetPotentialGrougs()
         {
+            
+            List<List<string>> listPotentialGrougs = new List<List<string>>();
             try
             {
 
-                //var listNumber = GetAllPotentialGrougs();
-                var list1 = new List<string> { "1", "2", "3", "4" };
-                var list2 = new List<string> { "1", "2", "3", "4" };
-                var list3 = new List<string> { "1", "2", "3", "4" };
-                var list4 = new List<string> { "1", "2", "3", "4" };
-                var list5 = new List<string> { "5", "6", "7", "8" };
-                var list6 = new List<string> { "5", "6", "7", "8" };
-                var list7 = new List<string> { "5", "6", "7", "8" };
-                var list8 = new List<string> { "5", "6", "7", "8" };
-                var list9 = new List<string> { "1", "6", "7", "8" };
-                var list10 = new List<string> { "1", "6", "7", "8" };
+                var listNumber = GetAllPotentialGrougs();
+                //var list1 = new List<string> { "1", "2", "3", "4" };
+                //var list2 = new List<string> { "1", "2", "3", "4" };
+                //var list3 = new List<string> { "1", "2", "3", "4" };
+                //var list4 = new List<string> { "1", "2", "3", "4" };
+                //var list5 = new List<string> { "5", "6", "7", "8" };
+                //var list6 = new List<string> { "5", "6", "7", "8" };
+                //var list7 = new List<string> { "5", "6", "7", "8" };
+                //var list8 = new List<string> { "5", "6", "7", "8" };
+                //var list9 = new List<string> { "1", "6", "7", "8" };
+                //var list10 = new List<string> { "1", "6", "7", "8" };
 
-                List<List<string>> listNumber = new List<List<string>>()
+                //List<List<string>> listNumber = new List<List<string>>()
+                //{
+                //    list1
+                //    ,list2
+                //    ,list3
+                //    ,list4
+                //    ,list5
+                //    ,list6
+                //    ,list7
+                //    ,list8
+                //    ,list9
+                //    ,list10
+                //};
+
+                for (int i = 0; i < listNumber.Count - 3; i++)
                 {
-                    list1
-                    ,list2
-                    ,list3
-                    ,list4
-                    ,list5
-                    ,list6
-                    ,list7
-                    ,list8
-                    ,list9
-                    ,list10
-                };
-                if (list1 == list2) Console.WriteLine("list1 == list2");
+                    for (int j = i + 1; j < listNumber.Count - 2; j++)
+                    {
+                        if (!AreLineGroupsEqual(listNumber[i], listNumber[j]))
+                            break;
+                        for (int k = j + 1; k < listNumber.Count - 1; k++)
+                        {
+                            if (!AreLineGroupsEqual(listNumber[j], listNumber[k]))
+                                break;
+                            for (int l = k + 1; l < listNumber.Count; l++)
+                            {
+                                if (AreLineGroupsEqual(listNumber[k], listNumber[l]))
+                                {
+                                    //output a new potential group
+                                    listPotentialGrougs.Add(listNumber[i]);
 
-                var listGetPotentialGrougs = listNumber.GroupBy(c => c).Select(c => new
-                {
-                    list = c.Key,
-                    count = c.Count()
-                }).ToList();
-
-                List<List<string>> listend = new List<List<string>>();
-                foreach (var item in listGetPotentialGrougs)
-                {
-                   var count=  listNumber.Where(c => c == item.list).Count();
-                    if (count == 4) listend.Add(item.list);
-
+                                }
+                            }
+                        }
+                    }
                 }
-                return listGetPotentialGrougs.Where(c=>c.count==4).Select(c=>c.list).ToList();
-               // return listGetPotentialGrougs;
-
+                return listPotentialGrougs;
             }
             catch (Exception ex)
             {
@@ -127,6 +159,11 @@ namespace DalMain.Manager
                 throw HandleException(ex);
             }
         }
+        /// <summary>
+        /// Returns groups of four people each, that everyone has the three others calls them most
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns></returns>
         private List<string> GetListNumber3TopCall(string number)
         {
             try
@@ -150,6 +187,10 @@ namespace DalMain.Manager
                 throw HandleException(ex);
             }
         }
+        /// <summary>
+        /// Returns a list of all lines in the system
+        /// </summary>
+        /// <returns></returns>
         private List<string> GetListNumber()
         {
             try
@@ -165,7 +206,6 @@ namespace DalMain.Manager
                 throw HandleException(ex);
             }
         }
-
         /// <summary>
         /// Returns the 10 customers who called the center the most
         /// </summary>

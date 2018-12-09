@@ -22,7 +22,7 @@ namespace BLExceptionLib
     public class BlUnexpectedException : BlException
     {
 
-        public BlUnexpectedException() : base("BL - unexpected error occured")
+        public BlUnexpectedException() : base("unexpected error occured")
         {
 
         }

@@ -135,23 +135,26 @@ namespace BlInvoice
         {
             try
             {
+                double MinutesInPackage = 0;
                 double SumDuration = 0;
                 SumDuration = invoiceCalculationLine.MinutesLeftInPackage - invoiceCalculationLine.Minutes;
                 if (SumDuration > 0)
                 {
                     invoiceCalculationLine.MinutesBeyondPackageLimit = Math.Round(SumDuration, 2);
                     invoiceCalculationLine.MinutesLeftInPackage = 0;
+                    invoiceCalculationLine.PackagePercentUsage = 100;
                 }
                 else
                 {
-                    invoiceCalculationLine.MinutesLeftInPackage = Math.Round(invoiceCalculationLine.Minutes - invoiceCalculationLine.MinutesLeftInPackage,2);
+                    MinutesInPackage = Math.Round(invoiceCalculationLine.MinutesLeftInPackage, 2);
+                   invoiceCalculationLine.MinutesLeftInPackage = Math.Round(invoiceCalculationLine.Minutes - invoiceCalculationLine.MinutesLeftInPackage,2);
                    invoiceCalculationLine.MinutesBeyondPackageLimit = 0;
-                }
-                
+                    if (invoiceCalculationLine.Minutes != 0 && invoiceCalculationLine.MinutesLeftInPackage != 0)
+                        invoiceCalculationLine.PackagePercentUsage = Math.Round(MinutesInPackage / invoiceCalculationLine.Minutes * 100);
+                    else invoiceCalculationLine.PackagePercentUsage = 100;
+
+                }                
                 invoiceCalculationLine.TotalMinutesPrice = Math.Round(invoiceCalculationLine.MinutesBeyondPackageLimit * invoiceCalculationLine.MinutePrice,2);
-                if (invoiceCalculationLine.Minutes != 0&& invoiceCalculationLine.MinutesLeftInPackage != 0)
-                    invoiceCalculationLine.PackagePercentUsage =Math.Round((1-invoiceCalculationLine.MinutesLeftInPackage) / invoiceCalculationLine.Minutes * 100);
-                else invoiceCalculationLine.PackagePercentUsage = 0;
                 invoiceCalculationLine.FreindNumbersTotalPrice = (invoiceCalculationLine.FreindNumbersMinutes * invoiceCalculationLine.FreindNumbersMinutePrice);
                 invoiceCalculationLine.TotalSMSPrice = (invoiceCalculationLine.SMS * invoiceCalculationLine.SMSPrice);
                 invoiceCalculationLine.TotalSMSPrice = Math.Round(invoiceCalculationLine.TotalSMSPrice, 2);

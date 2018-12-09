@@ -28,17 +28,17 @@ namespace BlBaseClassesLib
             }
             catch (DALUnexpectedException)
             {
-                throw new BlUnexpectedException();
+                return new BlUnexpectedException();
             }
             catch (DALException e)
             {
-                throw new BlException(e.Message);
+                return new BlException(e.Message);
             }
             catch (Exception e)
             {
                 FileLogger fileLogger = new FileLogger();
                 fileLogger.LogException("BL", e);
-                throw new BlUnexpectedException();
+                return new BlUnexpectedException();
             }
         }
         public Exception NewBLException(StackTrace stackTrace, string message)

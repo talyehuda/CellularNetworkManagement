@@ -18,7 +18,7 @@ namespace BlWebApiCRM
     }
     public class ApiUnexpectedException : ApiException
     {
-        public ApiUnexpectedException() : base("Api - unexpected error occured")
+        public ApiUnexpectedException() : base("unexpected error occured")
         {
 
         }
