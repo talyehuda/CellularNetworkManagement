@@ -34,24 +34,13 @@ namespace BlOptimalPackage
                 Login login = null;
                 if (ClientIdNumber != 0 && ContactNumber != null)
                 {
-                    var employeeManager = blLoginMain.LoginManager(ClientIdNumber, ContactNumber);
-                    if (employeeManager != null)
-                        login = new Login(employeeManager.Id, employeeManager.NameToString(), employeeManager.UserAuthType);
-                    else
-                    {
-                        var employee = blLoginMain.LoginEmployee(ClientIdNumber, ContactNumber);
-                        if (employee != null)
-                            login = new Login(employee.Id, employee.NameToString(), employee.UserAuthType);
-                        else
-                        {
-                            var client = blLoginMain.LoginClient(ClientIdNumber, ContactNumber);
-                            if (client != null)
-                                login = new Login(client.Id, client.NameToString(), Common.Model.UserAuthType.Client);
-                            else throw NewBLException(new StackTrace(true), " Incorrect ClientIdNumber or ContactNumber");
-                        }
-                    }
+
+                    var client = blLoginMain.LoginClient(ClientIdNumber, ContactNumber);
+                    if (client != null)
+                        login = new Login(client.Id, client.NameToString(), Common.Model.UserAuthType.Client);
+                    else throw NewBLException(new StackTrace(true), " Incorrect Clientb Id Number or Contact Number");
                 }
-                else throw NewBLException(new StackTrace(true), "ClientIdNumber or ContactNumber Sent empty");
+                else throw NewBLException(new StackTrace(true), "Client Id Number or Contact Number Sent empty");
                 return login;
             }
             catch (Exception e)

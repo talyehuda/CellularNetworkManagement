@@ -14,24 +14,24 @@ namespace Utils
     }
     public class FileLogger :ILogger
     {
-        //StreamWriter log;
-        //FileStream fileStream = null;
-        //DirectoryInfo logDirInfo = null;
-        //FileInfo logFileInfo;
-        private string filePath = null;
 
-        /// <summary>
-        /// Default ctor
-        /// </summary>
+        private string filePath = null;
         public FileLogger()
-        {//string filePath
-            // Environment.CurrentDirectory
-            filePath = "C:\\Users\\User\\Desktop" + "\\Log";
-            System.IO.Directory.CreateDirectory(filePath);
-            filePath += "\\Log.txt";
-            if (!File.Exists(filePath))
+        {
+            try
             {
-                File.Create(filePath);
+
+                filePath = Environment.ExpandEnvironmentVariables("%appdata%\\cellularnetworklog");
+                System.IO.Directory.CreateDirectory(filePath);
+                filePath += "\\Log.txt";
+                if (!File.Exists(filePath))
+                {
+                    File.Create(filePath);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
             }
 
         }

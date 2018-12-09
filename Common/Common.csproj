@@ -50,7 +50,6 @@
     <Compile Include="ModelToBlClient\BIReport.cs" />
     <Compile Include="ModelToBlClient\Invoice\CallDurationPerNumber.cs" />
     <Compile Include="ModelToBlClient\Invoice\ClientInvoice.cs" />
-    <Compile Include="ModelToBlClient\Invoice\InvoiceCalculationParameters.cs" />
     <Compile Include="ModelToBlClient\Invoice\LineInvoice.cs" />
     <Compile Include="ModelToBlClient\Invoice\SendToOptions.cs" />
     <Compile Include="ModelToBlClient\Invoice\SimulationParameters.cs" />
