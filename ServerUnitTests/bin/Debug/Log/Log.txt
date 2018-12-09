@@ -1,0 +1,377 @@
+date: 07/12/2018 17:02:58, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 138 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 07/12/2018 17:08:00, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 07/12/2018 17:08:51, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 07/12/2018 17:11:09, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 07/12/2018 17:13:14, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 07/12/2018 17:13:14, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 07/12/2018 17:18:25, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 07/12/2018 17:18:25, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 07/12/2018 17:30:23, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 07/12/2018 17:30:23, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 07/12/2018 17:30:23, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 07/12/2018 17:33:22, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 07/12/2018 17:33:22, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 07/12/2018 17:33:22, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 07/12/2018 17:35:52, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 07/12/2018 17:35:52, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 07/12/2018 17:35:52, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 07/12/2018 17:35:52, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 01:06:02, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 01:06:02, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 01:06:02, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 01:06:02, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 01:18:01, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 01:18:01, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 01:18:01, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 01:18:01, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 13:37:46, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 13:37:46, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 13:37:46, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 13:37:46, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 13:38:18, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 13:38:18, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 13:38:18, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 13:38:18, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 14:30:27, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 14:30:27, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 14:30:27, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 14:30:27, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 14:30:55, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 14:30:55, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 14:30:55, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 14:30:55, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 14:42:32, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 14:42:32, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 14:42:32, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 14:42:32, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 14:42:32, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 14:43:59, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:01:10, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 15:01:10, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 15:01:10, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:01:10, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:01:10, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:01:10, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:16:35, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 15:16:35, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 15:16:35, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:16:35, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:16:35, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:16:35, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:16:35, section: BLexception: MockException
+message: IDalCRMRead.GetListClientType() invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:16:35, section: BLexception: MockException
+message: IDalCRMRead.GetListClientType() invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:17:17, section: BLexception: MockException
+message: IDalCRMRead.GetListClientType() invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:17:32, section: BLexception: MockException
+message: IDalCRMRead.GetListClientType() invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:19:05, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:44:08, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 15:44:08, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 15:44:09, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:44:09, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:44:09, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:44:09, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:44:09, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:44:09, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:46:39, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 15:46:39, section: BL, exception: BlException
+message: client Sent empty
+stack trace: AddClient at offset 125 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlClient.cs:66:37
+
+
+date: 08/12/2018 15:46:39, section: BLexception: MockException
+message: IDalCRMWrite.EditClient(null) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:46:39, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:46:39, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:46:39, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:46:39, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+
+date: 08/12/2018 15:46:39, section: BLexception: Exception
+message: המערכת התריעה על חריג מסוג 'System.Exception'.
+stack trace:    ב-  BlBaseClassesLib.BlBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlBaseClassesLib\BlBase.cs:שורה 23
+

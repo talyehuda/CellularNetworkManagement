@@ -1,0 +1,265 @@
+date: 04/12/2018, section: section..message: client does not exist
+
+date: 04/12/2018, section: Dal - GetListLineByClient, message: client does not exist
+
+date: 04/12/2018 20:31:15, section: Dal - GetListLineByClient, message: client does not exist
+
+date: 05/12/2018, section: DALexception: ex
+message: client does not exist
+stack trace: 
+
+date: 05/12/2018, section: BLexception: ex
+message: ניסיון לחלק באפס.
+stack trace:    ב-  DalMain.DalBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\DalMain\DalBase.cs:שורה 20
+
+date: 05/12/2018, section: DALexception: ex
+message: client does not exist
+stack trace: 
+
+date: 05/12/2018 10:01:32, section: DAL, message: client does not exist
+
+date: 05/12/2018, section: DALexception: ex
+message: client does not exist
+stack trace: 
+
+date: 05/12/2018 10:27:04, section:    ב-  DalMain.Manager.CRMManagerRead.GetListLineByClient(Int32 id) ב- C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:שורה 66
+   ב-  BlCRM.BlLineAndPackage.GetListLineByClientId(Int32 ClientId) ב- C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlLineAndPackage.cs:שורה 45
+   ב-  Test.Program.GetListLineById() ב- C:\Users\User\source\repos\CellularNetworkManagement\Test\Program.cs:שורה 64
+   ב-  Test.Program.GetListLineByIdWrite() ב- C:\Users\User\source\repos\CellularNetworkManagement\Test\Program.cs:שורה 54
+   ב-  Test.Program.Main(String[] args) ב- C:\Users\User\source\repos\CellularNetworkManagement\Test\Program.cs:שורה 49
+, message: client does not exist
+
+date: 05/12/2018, section: DALexception: ex
+message: client does not exist
+stack trace: 
+
+date: 05/12/2018 10:33:13, section: GetListLineByClient at offset 856 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:66:25
+, message: client does not exist
+
+date: 05/12/2018 00:00:00, section: Dal, exception: ex
+message: client does not exist
+stack trace: GetListLineByClient at offset 855 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:64:29
+
+
+date: 05/12/2018 00:00:00, section: Dal, exception: ex
+message: client does not exist
+stack trace: GetListLineByClient at offset 855 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:64:29
+
+
+date: 05/12/2018 11:10:27, section: Dal, exception: ex
+message: client does not exist
+stack trace: GetListLineByClient at offset 855 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:64:29
+
+
+date: 05/12/2018 11:17:54, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 855 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:64:29
+
+
+date: 05/12/2018 13:19:00, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:64:29
+
+
+date: 05/12/2018 13:31:44, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:64:29
+
+
+date: 05/12/2018 15:56:17, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:64:29
+
+
+date: 05/12/2018 16:05:48, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:64:29
+
+
+date: 05/12/2018 16:39:13, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:64:29
+
+
+date: 05/12/2018 19:45:59, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:64:29
+
+
+date: 06/12/2018 00:02:52, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:64:29
+
+
+date: 06/12/2018 00:06:27, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:64:29
+
+
+date: 06/12/2018 06:30:57, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:76:29
+
+
+date: 06/12/2018 06:36:56, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:76:29
+
+
+date: 06/12/2018 07:33:09, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:76:29
+
+
+date: 06/12/2018 07:41:03, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:76:29
+
+
+date: 07/12/2018 12:41:33, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:76:29
+
+
+date: 07/12/2018 12:47:16, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:76:29
+
+
+date: 07/12/2018 13:01:11, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:76:29
+
+
+date: 07/12/2018 13:02:44, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:76:29
+
+
+date: 07/12/2018 13:06:16, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 499 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlLoginEmployee.cs:43:30
+
+
+date: 07/12/2018 13:13:46, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 499 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlLoginEmployee.cs:43:30
+
+
+date: 07/12/2018 13:13:46, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 299 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlReportsEngine\BlLoginManager.cs:42:26
+
+
+date: 07/12/2018 13:16:40, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 499 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlLoginEmployee.cs:43:30
+
+
+date: 07/12/2018 13:16:40, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 299 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlReportsEngine\BlLoginManager.cs:42:26
+
+
+date: 08/12/2018 01:08:39, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 499 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlLoginEmployee.cs:43:30
+
+
+date: 08/12/2018 01:08:40, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 299 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlReportsEngine\BlLoginManager.cs:43:26
+
+
+date: 08/12/2018 01:08:58, section: Dalexception: DbUpdateException
+message: An error occurred while updating the entries. See the inner exception for details.
+stack trace:    ב-  DalMain.DalBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\DalMain\DalBase.cs:שורה 21
+
+date: 08/12/2018 01:10:20, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 499 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlLoginEmployee.cs:43:30
+
+
+date: 08/12/2018 01:10:21, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 299 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlReportsEngine\BlLoginManager.cs:43:26
+
+
+date: 08/12/2018 01:11:01, section: Dalexception: DbUpdateException
+message: An error occurred while updating the entries. See the inner exception for details.
+stack trace:    ב-  DalMain.DalBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\DalMain\DalBase.cs:שורה 21
+
+date: 08/12/2018 01:12:10, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 499 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlLoginEmployee.cs:43:30
+
+
+date: 08/12/2018 01:12:10, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 299 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlReportsEngine\BlLoginManager.cs:43:26
+
+
+date: 08/12/2018 01:12:17, section: Dalexception: DbUpdateException
+message: An error occurred while updating the entries. See the inner exception for details.
+stack trace:    ב-  DalMain.DalBase.HandleException(Exception ex) ב- C:\Users\User\source\repos\CellularNetworkManagement\DalMain\DalBase.cs:שורה 21
+
+date: 08/12/2018 01:12:39, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 499 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlLoginEmployee.cs:43:30
+
+
+date: 08/12/2018 01:12:39, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 299 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlReportsEngine\BlLoginManager.cs:43:26
+
+
+date: 08/12/2018 01:18:29, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 499 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlLoginEmployee.cs:43:30
+
+
+date: 08/12/2018 01:18:29, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 299 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlReportsEngine\BlLoginManager.cs:43:26
+
+
+date: 08/12/2018 01:20:12, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 499 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlLoginEmployee.cs:43:30
+
+
+date: 08/12/2018 01:20:12, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 299 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlReportsEngine\BlLoginManager.cs:43:26
+
+
+date: 08/12/2018 01:22:02, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 499 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlLoginEmployee.cs:43:30
+
+
+date: 08/12/2018 01:22:02, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 299 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlReportsEngine\BlLoginManager.cs:43:26
+
+
+date: 08/12/2018 01:22:07, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:76:29
+
+
+date: 08/12/2018 01:22:51, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 499 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlCRM\BlLoginEmployee.cs:43:30
+
+
+date: 08/12/2018 01:22:51, section: BL, exception: BlException
+message:  Incorrect ClientIdNumber or ContactNumber
+stack trace: Login at offset 299 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\BlReportsEngine\BlLoginManager.cs:43:26
+
+
+date: 08/12/2018 01:22:52, section: Dal, exception: DALException
+message: client does not exist
+stack trace: GetListLineByClient at offset 852 in file:line:column C:\Users\User\source\repos\CellularNetworkManagement\DalMain\Manager\CRMManagerRead.cs:76:29
+
+

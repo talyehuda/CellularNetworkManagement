@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\bin\Debug\DalMain.dll.config
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\bin\Debug\DalMain.dll
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\bin\Debug\DalMain.pdb
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\bin\Debug\Common.dll
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\bin\Debug\Utils.dll
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\bin\Debug\Common.pdb
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\bin\Debug\Common.dll.config
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\bin\Debug\Utils.pdb
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\obj\Debug\DalMain.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\obj\Debug\DalMain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\obj\Debug\DalMain.dll
+C:\Users\User\source\repos\CellularNetworkManagement\DalMain\obj\Debug\DalMain.pdb

@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\CellularNetworkManagement\Common\bin\Debug\Common.dll.config
+C:\Users\User\source\repos\CellularNetworkManagement\Common\bin\Debug\Common.dll
+C:\Users\User\source\repos\CellularNetworkManagement\Common\bin\Debug\Common.pdb
+C:\Users\User\source\repos\CellularNetworkManagement\Common\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\CellularNetworkManagement\Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\CellularNetworkManagement\Common\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\CellularNetworkManagement\Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\CellularNetworkManagement\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CellularNetworkManagement\Common\obj\Debug\Common.dll
+C:\Users\User\source\repos\CellularNetworkManagement\Common\obj\Debug\Common.pdb

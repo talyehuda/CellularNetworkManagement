@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\bin\Debug\BLExceptionLib.dll
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\bin\Debug\BLExceptionLib.pdb
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\bin\Debug\DalMain.dll
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\bin\Debug\Common.dll
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\bin\Debug\Utils.dll
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\bin\Debug\DalMain.pdb
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\bin\Debug\DalMain.dll.config
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\bin\Debug\Common.pdb
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\bin\Debug\Common.dll.config
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\bin\Debug\Utils.pdb
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\obj\Debug\BLExceptionLib.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\obj\Debug\BLExceptionLib.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\obj\Debug\BLExceptionLib.dll
+C:\Users\User\source\repos\CellularNetworkManagement\BLExceptionLib\obj\Debug\BLExceptionLib.pdb

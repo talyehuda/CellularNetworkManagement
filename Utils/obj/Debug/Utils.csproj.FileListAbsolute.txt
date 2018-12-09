@@ -1,0 +1,5 @@
+C:\Users\User\source\repos\CellularNetworkManagement\Utils\bin\Debug\Utils.dll
+C:\Users\User\source\repos\CellularNetworkManagement\Utils\bin\Debug\Utils.pdb
+C:\Users\User\source\repos\CellularNetworkManagement\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CellularNetworkManagement\Utils\obj\Debug\Utils.dll
+C:\Users\User\source\repos\CellularNetworkManagement\Utils\obj\Debug\Utils.pdb
