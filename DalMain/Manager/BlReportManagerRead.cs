@@ -82,30 +82,6 @@ namespace DalMain.Manager
             {
 
                 var listNumber = GetAllPotentialGrougs();
-                //var list1 = new List<string> { "1", "2", "3", "4" };
-                //var list2 = new List<string> { "1", "2", "3", "4" };
-                //var list3 = new List<string> { "1", "2", "3", "4" };
-                //var list4 = new List<string> { "1", "2", "3", "4" };
-                //var list5 = new List<string> { "5", "6", "7", "8" };
-                //var list6 = new List<string> { "5", "6", "7", "8" };
-                //var list7 = new List<string> { "5", "6", "7", "8" };
-                //var list8 = new List<string> { "5", "6", "7", "8" };
-                //var list9 = new List<string> { "1", "6", "7", "8" };
-                //var list10 = new List<string> { "1", "6", "7", "8" };
-
-                //List<List<string>> listNumber = new List<List<string>>()
-                //{
-                //    list1
-                //    ,list2
-                //    ,list3
-                //    ,list4
-                //    ,list5
-                //    ,list6
-                //    ,list7
-                //    ,list8
-                //    ,list9
-                //    ,list10
-                //};
 
                 for (int i = 0; i < listNumber.Count - 3; i++)
                 {
@@ -197,7 +173,7 @@ namespace DalMain.Manager
             {
                 using (CellularContext context = new CellularContext())
                 {
-                    return context.Call.Select(c => c.Line.Number).ToList();
+                    return context.Call.GroupBy(c => c.Line.Number).Select(c => c.Key).ToList();
                 }
 
             }

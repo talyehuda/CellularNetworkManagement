@@ -31,6 +31,8 @@ namespace Test
         static void Main(string[] args)
         {
             Datetimetest();
+
+
             //AddClient();
             //  ClientType clientType = new ClientType() { MinutePrice = 2.5, SMSPrice = 1.5, TypeName = "VIP" };
             //  ClientType clientType1 = new ClientType(0, "VIP", 2.5, 1.5);
@@ -40,8 +42,8 @@ namespace Test
             //  EditClientType(clientType1);
             //  ReturnClientType();
             //  Console.WriteLine("-----------------");
-            //  PlaySimulator();
-             // PlayallDuration();
+            // PlaySimulator();
+            // PlayallDuration();
             //  Console.WriteLine(GetAmountLineToAll("0526654822"));
             //  GetBlInvoiceCalculation();
             //  AddLine();
@@ -55,10 +57,29 @@ namespace Test
             //   BlReportTest();
             //  AddCall();
             //  GetListLineByIdWrite();
-            GetPotentialGrougs();
+            //GetListNumber();
+            //GetPotentialGrougs();
             Console.ReadLine();
         }
+        private static void GetListNumber()
+        {
 
+           var a= GetListNumber2();
+            var b = 5;
+            b++;
+
+        }
+        private static List<string> GetListNumber2()
+        {
+
+                using (CellularContext context = new CellularContext())
+                {
+                    return context.Call.GroupBy(c => c.Line.Number).Select(c => c.Key).ToList();
+                }
+
+            
+
+        }
         private static void GetPotentialGrougs()
         {
             BlReportManagerRead blReportManagerRead = new BlReportManagerRead();
@@ -149,18 +170,103 @@ namespace Test
                 //.Sum(c => c.Duration).Select(c=>c.DestinationNumber)
             }
         }
-
-        public static void PlaySimulator()
+        private static void PlaySimulatorSMSAndMinutes()
         {
-            SimulationParameters simulationParameters = new SimulationParameters(6, 2, 10, 10, false, SendToOptions.All);
+            PlaySimulator(true);
+            PlaySimulator(false);
+        }
+
+            private static void PlaySimulator(bool sms)
+        {
             BlSimulator.BlSimulator blSimulator = new BlSimulator.BlSimulator(new SimulatorManagerWrite(), new SimulatorManagerRead());
-            blSimulator.AddSimulationParameters(simulationParameters);
 
-            SimulationParameters simulationParameters2 = new SimulationParameters(6, 2, 10, 10, true, SendToOptions.All);
+            SimulationParameters simulationParameters1 = new SimulationParameters(1, 40, 60, 30, sms, SendToOptions.Family);
+            blSimulator.AddSimulationParameters(simulationParameters1);
+            SimulationParameters simulationParameters2 = new SimulationParameters(2, 40, 60, 30, sms, SendToOptions.Family);
             blSimulator.AddSimulationParameters(simulationParameters2);
+            SimulationParameters simulationParameters3 = new SimulationParameters(3, 40, 60, 30, sms, SendToOptions.Family);
+            blSimulator.AddSimulationParameters(simulationParameters3);
+            SimulationParameters simulationParameters4 = new SimulationParameters(4, 40, 60, 30, sms, SendToOptions.Family);
+            blSimulator.AddSimulationParameters(simulationParameters3);
 
-            SimulationParameters simulationParameters3 = new SimulationParameters(6, 2, 10, 30, false, SendToOptions.All);
+
+            blSimulator.AddSimulationParameters(simulationParameters1, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters2, DateTime.Today.AddMonths(-1));
             blSimulator.AddSimulationParameters(simulationParameters3, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters4, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters1, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters2, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters3, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters4, DateTime.Today.AddMonths(-2));
+
+
+            SimulationParameters simulationParameters5 = new SimulationParameters(5, 10, 40, 20, sms, SendToOptions.All);
+            blSimulator.AddSimulationParameters(simulationParameters1);
+            SimulationParameters simulationParameters6 = new SimulationParameters(6, 10, 40, 20, sms, SendToOptions.All);
+            blSimulator.AddSimulationParameters(simulationParameters2);                      
+            SimulationParameters simulationParameters7 = new SimulationParameters(7, 10, 40, 20, sms, SendToOptions.All);
+            blSimulator.AddSimulationParameters(simulationParameters3);                      
+            SimulationParameters simulationParameters8 = new SimulationParameters(8, 10, 40, 20, sms, SendToOptions.All);
+            blSimulator.AddSimulationParameters(simulationParameters3);
+
+            blSimulator.AddSimulationParameters(simulationParameters5, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters6, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters7, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters8, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters5, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters6, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters7, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters8, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters5, DateTime.Today.AddMonths(-3));
+            blSimulator.AddSimulationParameters(simulationParameters6, DateTime.Today.AddMonths(-3));
+            blSimulator.AddSimulationParameters(simulationParameters7, DateTime.Today.AddMonths(-3));
+            blSimulator.AddSimulationParameters(simulationParameters8, DateTime.Today.AddMonths(-3));
+
+
+            SimulationParameters simulationParameters9 = new SimulationParameters(5, 10, 40, 20, sms, SendToOptions.All);
+            blSimulator.AddSimulationParameters(simulationParameters1);
+            SimulationParameters simulationParameters10 = new SimulationParameters(6, 10, 40, 20, sms, SendToOptions.All);
+            blSimulator.AddSimulationParameters(simulationParameters2);
+            SimulationParameters simulationParameters11 = new SimulationParameters(7, 10, 40, 20, sms, SendToOptions.All);
+            blSimulator.AddSimulationParameters(simulationParameters3);
+            SimulationParameters simulationParameters12 = new SimulationParameters(8, 10, 40, 20, sms, SendToOptions.All);
+            blSimulator.AddSimulationParameters(simulationParameters3);
+
+            blSimulator.AddSimulationParameters(simulationParameters9 , DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters10, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters11, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters12, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters9 , DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters10, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters11, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters12, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters9 , DateTime.Today.AddMonths(-3));
+            blSimulator.AddSimulationParameters(simulationParameters10, DateTime.Today.AddMonths(-3));
+            blSimulator.AddSimulationParameters(simulationParameters11, DateTime.Today.AddMonths(-3));
+            blSimulator.AddSimulationParameters(simulationParameters12, DateTime.Today.AddMonths(-3));
+
+            SimulationParameters simulationParameters13 = new SimulationParameters(5, 10, 40, 20, sms, SendToOptions.All);
+            blSimulator.AddSimulationParameters(simulationParameters1);
+            SimulationParameters simulationParameters14 = new SimulationParameters(6, 10, 40, 20, sms, SendToOptions.All);
+            blSimulator.AddSimulationParameters(simulationParameters2);
+            SimulationParameters simulationParameters15 = new SimulationParameters(7, 10, 40, 20, sms, SendToOptions.All);
+            blSimulator.AddSimulationParameters(simulationParameters3);
+            SimulationParameters simulationParameters16 = new SimulationParameters(8, 10, 40, 20, sms, SendToOptions.All);
+            blSimulator.AddSimulationParameters(simulationParameters3);
+
+            blSimulator.AddSimulationParameters(simulationParameters9, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters10, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters11, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters12, DateTime.Today.AddMonths(-1));
+            blSimulator.AddSimulationParameters(simulationParameters9, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters10, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters11, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters12, DateTime.Today.AddMonths(-2));
+            blSimulator.AddSimulationParameters(simulationParameters9, DateTime.Today.AddMonths(-3));
+            blSimulator.AddSimulationParameters(simulationParameters10, DateTime.Today.AddMonths(-3));
+            blSimulator.AddSimulationParameters(simulationParameters11, DateTime.Today.AddMonths(-3));
+            blSimulator.AddSimulationParameters(simulationParameters12, DateTime.Today.AddMonths(-3));
+
         }
 
         public static void PlayallDuration()

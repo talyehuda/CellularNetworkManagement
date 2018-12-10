@@ -8,3 +8,4 @@ C:\Users\User\source\repos\CellularNetworkManagement\Common\bin\Debug\EntityFram
 C:\Users\User\source\repos\CellularNetworkManagement\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\CellularNetworkManagement\Common\obj\Debug\Common.dll
 C:\Users\User\source\repos\CellularNetworkManagement\Common\obj\Debug\Common.pdb
+C:\Users\User\source\repos\CellularNetworkManagement\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

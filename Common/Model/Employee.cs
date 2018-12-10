@@ -10,15 +10,16 @@ namespace Common.Model
 {
     public class Employee
     {
-        public Employee(int clientIdNumber, string contactNameber, string name, string lastName, UserAuthType userAuthType)
+        public Employee(int clientIdNumber, string contactNameber, string name, string lastName, UserAuthType userAuthType,int numberOfLineCustomersAdded=0)
         {
             ClientIdNumber = clientIdNumber;
             ContactNameber = contactNameber;
             Name = name;
             LastName = lastName;
             UserAuthType = userAuthType;
-            NumberOfLineCustomersAdded = 0;
+            NumberOfLineCustomersAdded = numberOfLineCustomersAdded;
         }
+
         public Employee()
         {
 

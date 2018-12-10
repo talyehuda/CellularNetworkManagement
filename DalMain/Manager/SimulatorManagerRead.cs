@@ -84,11 +84,9 @@ namespace DalMain.Manager
                             if (a != null)
                                 list.Remove(item);
                         }
-                        if (list.Count != 0) return list[random.Next(list.Count)];
-                        else throw NewDALException(new StackTrace(true), "This line has no General");
                     }
+                    if (list.Count != 0) return list[random.Next(list.Count)];
                     else throw NewDALException(new StackTrace(true), "This line has no General");
-
                 }
             }
             catch (Exception ex)
