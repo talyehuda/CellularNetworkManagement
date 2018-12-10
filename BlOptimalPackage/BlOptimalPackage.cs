@@ -136,11 +136,11 @@ namespace BlOptimalPackage
             LineInvoice invoiceCalculationLine;
             Package package = new Package(1, "", 1, 1, 50, 1, null, true, true);
             invoiceCalculationLine = blInvoiceCalculation.CalculationLine(line, date, package);
-            optimalPackage.TotalMinutesFamily = invoiceCalculationLine.FamilyNumbersMinutes;
+            optimalPackage.TotalMinutesFamily = Math.Round(invoiceCalculationLine.FamilyNumbersMinutes,2);
             optimalPackage.TotalMinutesGeneral = invoiceCalculationLine.MinutesLeftInPackage + invoiceCalculationLine.MinutesBeyondPackageLimit;
-            optimalPackage.TotalMinutesTop3Number = invoiceCalculationLine.FreindNumbersMinutes;
-            optimalPackage.TotalMinutesTopNumber = invoiceCalculationLine.MostCalledNumbersMinutes;
-            optimalPackage.TotalMinutes = optimalPackage.TotalMinutesFamily + optimalPackage.TotalMinutesGeneral + optimalPackage.TotalMinutesTop3Number + optimalPackage.TotalMinutesTopNumber;
+            optimalPackage.TotalMinutesTop3Number = Math.Round(invoiceCalculationLine.FreindNumbersMinutes, 2);
+            optimalPackage.TotalMinutesTopNumber =Math.Round( invoiceCalculationLine.MostCalledNumbersMinutes,2);
+            optimalPackage.TotalMinutes = Math.Round(optimalPackage.TotalMinutesFamily + optimalPackage.TotalMinutesGeneral + optimalPackage.TotalMinutesTop3Number + optimalPackage.TotalMinutesTopNumber, 2);
             optimalPackage.TotalSMS = invoiceCalculationLine.SMS;
             optimalPackage.ClientValue = GatClientValue(line.ClientId);
 
