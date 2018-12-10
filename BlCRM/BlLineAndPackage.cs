@@ -23,6 +23,11 @@ namespace BlCRM
             this.cRMManagerEdit = cRMManagerEdit;
             this.cRMManagerRead = cRMManagerRead;
         }
+        /// <summary>
+        /// Get List Line By Client
+        /// </summary>
+        /// <param name="ClientIdNumber"></param>
+        /// <returns></returns>
         public List<Line> GetListLineByClient(int ClientIdNumber)
         {
             try
@@ -34,6 +39,11 @@ namespace BlCRM
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Get List Line By ClientId
+        /// </summary>
+        /// <param name="ClientId"></param>
+        /// <returns></returns>
         public List<Line> GetListLineByClientId(int ClientId)
         {
             try
@@ -45,6 +55,10 @@ namespace BlCRM
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Get List Package Options
+        /// </summary>
+        /// <returns></returns>
         public List<Package> GetListPackageOptions()
         {
             try
@@ -68,6 +82,11 @@ namespace BlCRM
             }
 
         }
+        /// <summary>
+        /// Get If Line Is Assigned
+        /// </summary>
+        /// <param name="Newnumber"></param>
+        /// <returns></returns>
         public bool GetIfLineIsAssigned(string Newnumber)
         {
             try
@@ -79,6 +98,12 @@ namespace BlCRM
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Add Line and Return Id
+        /// </summary>
+        /// <param name="line"></param>
+        /// <param name="idEmployee"></param>
+        /// <returns></returns>
         public int? AddLineReturnId(Line line, int idEmployee)
         {
             if (line == null) throw NewBLException(new StackTrace(true), "line Sent empty");
@@ -96,6 +121,11 @@ namespace BlCRM
                 }
             }
         }
+        /// <summary>
+        /// Edit Line
+        /// </summary>
+        /// <param name="line"></param>
+        /// <returns></returns>
         public RequestStatus EditLine(Line line)
         {
             if (line == null) throw NewBLException(new StackTrace(true), "line Sent empty");
@@ -111,6 +141,11 @@ namespace BlCRM
                 }
             }
         }
+        /// <summary>
+        /// Add Package Return Id
+        /// </summary>
+        /// <param name="package"></param>
+        /// <returns></returns>
         public int? AddPackageReturnId(Package package)
         {
             if (package == null) throw NewBLException(new StackTrace(true), "package Sent empty");
@@ -126,6 +161,11 @@ namespace BlCRM
                 }
             }
         }
+        /// <summary>
+        /// Add Selected Numbers and ReturnId
+        /// </summary>
+        /// <param name="selectedNumbers"></param>
+        /// <returns></returns>
         public int? AddSelectedNumbersReturnId(SelectedNumbers selectedNumbers)
         {
             if (selectedNumbers == null) throw NewBLException(new StackTrace(true), "SelectedNumbers Sent empty");
@@ -138,6 +178,11 @@ namespace BlCRM
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Edit Package
+        /// </summary>
+        /// <param name="package"></param>
+        /// <returns></returns>
         public RequestStatus EditPackage(Package package)
         {
             if (package == null) throw NewBLException(new StackTrace(true), "package Sent empty");
@@ -150,6 +195,11 @@ namespace BlCRM
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Return Total Fixed Price
+        /// </summary>
+        /// <param name="package"></param>
+        /// <returns></returns>
         public double ReturnTotalFixedPrice(Package package)
         {
             try
@@ -165,6 +215,11 @@ namespace BlCRM
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Get Package By Id
+        /// </summary>
+        /// <param name="lineId"></param>
+        /// <returns></returns>
         public Package GetPackageById(int lineId)
         {
             try
@@ -176,6 +231,11 @@ namespace BlCRM
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Remove Line
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public RequestStatus RemoveLine(int id)
         {
             try
@@ -187,6 +247,11 @@ namespace BlCRM
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Get Selected Numbers By Id
+        /// </summary>
+        /// <param name="SelectedNumbersId"></param>
+        /// <returns></returns>
         public SelectedNumbers GetSelectedNumbersById(int SelectedNumbersId)
         {
             try

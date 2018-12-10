@@ -20,6 +20,12 @@ namespace BlInvoice
         {
             this.dalInvoiceRead = dalInvoiceRead;
         }
+        /// <summary>
+        /// Get List Clients Id Number
+        /// </summary>
+        /// <param name="line"></param>
+        /// <param name="date"></param>
+        /// <returns></returns>
         private List<CallDurationPerNumber> GetListClientsIdNumber(Line line, DateTime date)
         {
             try
@@ -33,6 +39,12 @@ namespace BlInvoice
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Calculation Line invoice 
+        /// </summary>
+        /// <param name="line"></param>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public LineInvoice CalculationLine(Line line, DateTime date)
         {
             try
@@ -47,6 +59,13 @@ namespace BlInvoice
             }
 
         }
+        /// <summary>
+        /// Calculation Line invoice by Package and date
+        /// </summary>
+        /// <param name="line"></param>
+        /// <param name="date"></param>
+        /// <param name="package"></param>
+        /// <returns></returns>
         public LineInvoice CalculationLine(Line line, DateTime date, Package package)
         {
             try
@@ -120,10 +139,21 @@ namespace BlInvoice
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Return Sum Duration
+        /// </summary>
+        /// <param name="list"></param>
+        /// <param name="sendTo"></param>
+        /// <returns></returns>
         private double ReturnSumDuration(List<CallDurationPerNumber> list, SendToOptions sendTo)
         {
             return list.Where(c => c.SendTo == sendTo).Sum(c => c.SumDuration);
         }
+        /// <summary>
+        /// get Total Price  for line
+        /// </summary>
+        /// <param name="invoiceCalculationLine"></param>
+        /// <returns></returns>
         private double TotalPrice(LineInvoice invoiceCalculationLine)
         {
             double price = 0;
@@ -131,6 +161,11 @@ namespace BlInvoice
             price += invoiceCalculationLine.PackagePrice;
             return price;
         }
+        /// <summary>
+        /// Calc Price for line 
+        /// </summary>
+        /// <param name="invoiceCalculationLine"></param>
+        /// <returns></returns>
         private LineInvoice CalcPrice(LineInvoice invoiceCalculationLine)
         {
             try
@@ -171,6 +206,12 @@ namespace BlInvoice
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Invoice Calculation Client
+        /// </summary>
+        /// <param name="list"></param>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public ClientInvoice InvoiceCalculationClient(List<Line> list, DateTime date)
         {
             try
@@ -195,6 +236,11 @@ namespace BlInvoice
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Get Invoice Calculation Client
+        /// </summary>
+        /// <param name="invoiceCalculationClient"></param>
+        /// <param name="date"></param>
         private void GetInvoiceCalculationClient(ClientInvoice invoiceCalculationClient, DateTime date)
         {
             invoiceCalculationClient.Month = date.Month;
@@ -213,6 +259,11 @@ namespace BlInvoice
                 throw HandleException(e);
             }
         }
+        /// <summary>
+        /// Add Payment
+        /// </summary>
+        /// <param name="invoiceCalculationClient"></param>
+        /// <param name="date"></param>
         private void AddPayment(ClientInvoice invoiceCalculationClient, DateTime date)
         {
             try
